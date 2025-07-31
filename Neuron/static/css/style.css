@@ -1,0 +1,154 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f012b; 
+    color: #fff;
+}
+
+
+header {
+    background-color: #4B0082;
+    padding: 20px 0;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+}
+
+.cabeçario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin-left: 160px;
+}
+
+.cabeçario img {
+    width:  150px;
+    display: flex;
+    margin-right: 150px;
+    position: relative;
+    right: 100px
+
+}
+
+.cabeçario nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+    display: inline;
+    position: relative;
+    left: 100px;
+}
+
+.cabeçario nav a:hover {
+    color: #d1a9ff;
+}
+
+
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section, article {
+    margin-bottom: 40px;
+}
+
+.sobre h1,
+.serviços h2,
+.pontos h3,
+.formulario h2 {
+    color: #d1a9ff;
+    margin-bottom: 15px;
+}
+
+
+.pontos section {
+    margin-top: 20px;
+}
+
+.pontos .h3ti {
+    font-size: 30px;
+    text-align: center;
+}
+
+.pontos section h3 {
+    color: #fff;
+    background-color: #4B0082;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.pontos p {
+    padding: 5px 0;
+}
+
+
+.formulario {
+    background-color: #6a0dad;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #d1a9ff;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #4B0082;
+    border-radius: 6px;
+    background-color: #000;
+    color: #fff;
+}
+
+.botão-final {
+    background-color: #4B0082;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botão-final:hover {
+    background-color: #6a0dad;
+}
+
+.cartão {
+    background-color: #6a0dad;
+    padding: 20px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.cartãolegal {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.sobre p {
+    font-size: 20px;
+    
+}
+
