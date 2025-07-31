@@ -79,7 +79,7 @@ section, article {
     text-align: center;
 }
 
-.pontos section h3 {
+.pontos section h4 {
     color: #fff;
     background-color: #4B0082;
     padding: 10px;
@@ -111,7 +111,7 @@ input[type="text"] {
     width: 100%;
     padding: 10px;
     border: 1px solid #4B0082;
-    border-radius: 6px;
+    border-radius: 10px;
     background-color: #000;
     color: #fff;
 }
@@ -151,4 +151,12 @@ input[type="text"] {
     font-size: 20px;
 }
 
+.sobre h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
 
+.serviços h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
